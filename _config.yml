@@ -1,0 +1,24 @@
+title: WestDefeat Blog
+description: 记录技术、学习和思考
+author: WestDefeat
+theme: minima
+lang: zh-CN
+timezone: Asia/Shanghai
+
+url: "https://westdefeat.github.io"
+baseurl: ""
+
+permalink: /:year/:month/:day/:title/
+
+minima:
+  skin: classic
+  social_links:
+    - platform: github
+      user_url: https://github.com/westdefeat
+
+header_pages:
+  - about.md
+
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
